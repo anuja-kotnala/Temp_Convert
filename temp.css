@@ -1,0 +1,41 @@
+body{
+    background-image: url(bg.jpg)
+   
+}
+#outer{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #badd7f;
+    height: 400px;
+    width: 400px;
+    border-radius: 20%;
+    color: #3e8440;
+    gap:15px;
+}
+
+#btn1{
+    background-color: #f7efda;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+
+#btn1:hover{
+    background-color: #efaca5;
+}
+
+#value{
+    background-color: #f7efda;
+    border: none;
+    text-align: center;
+}
